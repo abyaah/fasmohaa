@@ -502,3 +502,8 @@ a {
     height: 700px;
   }
 }
+@media (max-width: 375px) {
+  .p {
+    font-size: 14px;
+  }
+}

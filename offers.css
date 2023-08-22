@@ -437,7 +437,8 @@ body {
     transition: 0.5s ease;
     height: 300px;
     width: 35%;
-    background: linear-gradient(135deg, rgb(0, 0, 61),rgb(100,0,100));
+    background: #222;
+
     display: block;
     text-align: center;
     z-index: 10;
@@ -454,7 +455,7 @@ body {
   .navbar .menu-list li:nth-child(2) {
     margin-top: 50px;
   }
-  .navbar .menu-list li{
+  .navbar .menu-list li {
     margin-top: 26.7px;
   }
   .navbar .menu-list li a {

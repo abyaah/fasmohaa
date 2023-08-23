@@ -4,7 +4,7 @@ var footerHeight = footerElement.clientHeight;
 var topElement = document.querySelector(".part1");
 var topHeight = topElement.clientHeight - 200;
 let scrollHeight = document.body.clientHeight - footerHeight - 800; // Adjust this value to the desired scroll height
-
+scrollButton.style.opacity = 0;
 window.addEventListener("scroll", function () {
   if (window.innerWidth <= 560) {
     if (window.scrollY > scrollHeight || window.scrollY < topHeight) {

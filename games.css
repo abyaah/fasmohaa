@@ -23,7 +23,7 @@ body {
 }
 .part1 {
   background: url(images/gamingbg.webp);
-  height: 350px;
+  height: 425px;
   background-repeat: no-repeat;
   background-size: 100% 170%;
   background-position: center;
@@ -95,12 +95,20 @@ body {
   margin-bottom: 30px;
   font-family: "Quicksand", sans-serif;
 }
+.categories p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", sans-serif;
+}
 .games-category {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 55px;
   gap: 55px;
+  margin-bottom: 25px;
 }
 
 .category button {
@@ -356,6 +364,10 @@ body {
   .gotop {
     right: 12px;
   }
+  .categories p {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 767px) {
   .footer-col {
@@ -397,6 +409,9 @@ body {
   .paragraphs p {
     text-align: center;
   }
+  .part1 {
+    height: 470px;
+  }
 }
 @media (max-width: 570px) {
   .paragraphs p {
@@ -405,6 +420,9 @@ body {
 
   .footer-col {
     width: 100%;
+  }
+  #thirdp {
+    margin-top: 18px;
   }
   .list {
     padding: 8px;
@@ -459,6 +477,12 @@ body {
   }
   .gotop {
     right: 4px;
+  }
+  .categories p {
+    font-size: 18px;
+  }
+  .part1 {
+    height: 700px;
   }
 }
 @media (max-width: 590px) {

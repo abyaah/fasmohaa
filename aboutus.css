@@ -462,6 +462,10 @@ a {
   .navbar {
     margin-bottom: 35px;
   }
+
+  #thirdp {
+    margin-top: 18px;
+  }
 }
 @media (max-width: 520px) {
   .navbar .menu-list {
@@ -476,6 +480,7 @@ a {
 @media (max-width: 474px) {
   .p {
     font-size: 15px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 450px) {

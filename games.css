@@ -158,10 +158,12 @@ body {
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  position: sticky;
-  top: 20px;
-  left: 22px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   cursor: pointer;
+  opacity: 1; /* Initially visible */
+  transition: opacity 0.3s ease-in-out;
 }
 .gameslist {
   background-color: rgb(243, 243, 243);
@@ -274,17 +276,17 @@ body {
 }
 @media (max-width: 1429px) {
   .gotop {
-    left: 1%;
+    right: 1%;
   }
 }
 @media (max-width: 1150px) {
   .gotop {
-    left: 10px;
+    right: 10px;
   }
 }
 @media (max-width: 1029px) {
   .gotop {
-    left: 3px;
+    right: 3px;
   }
   body.disabledScroll {
     overflow: hidden;
@@ -352,7 +354,7 @@ body {
     width: 80%;
   }
   .gotop {
-    left: 12px;
+    right: 12px;
   }
 }
 @media (max-width: 767px) {
@@ -456,7 +458,7 @@ body {
     width: 220px;
   }
   .gotop {
-    left: 4px;
+    right: 4px;
   }
 }
 @media (max-width: 590px) {

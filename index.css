@@ -563,10 +563,6 @@ html {
   .row {
     margin-bottom: 10px;
   }
-  .slide img {
-    width: 90%;
-    height: 280px;
-  }
 }
 @media (max-width: 663px) {
   #tunapendap {
@@ -580,6 +576,10 @@ html {
     width: 90%;
     margin: 0 auto;
     font-size: 18px;
+  }
+  .slide img {
+    width: 95%;
+    height: 240px;
   }
 }
 @media (max-width: 595px) {

@@ -2,7 +2,7 @@ let scrollButton = document.getElementsByClassName("gotop")[0]; // Access the fi
 var footerElement = document.querySelector(".footer");
 var footerHeight = footerElement.clientHeight;
 var topElement = document.querySelector(".part1");
-var topHeight = topElement.clientHeight - 400;
+var topHeight = topElement.clientHeight - 200;
 let scrollHeight = document.body.clientHeight - footerHeight - 800; // Adjust this value to the desired scroll height
 
 window.addEventListener("scroll", function () {

@@ -121,7 +121,7 @@ const videoElement = document.getElementById("videoElement");
 // Function to change the video source
 function changeVideoSource(newSrc) {
   // Pause the video if it's playing
-  videoElement.pause();
+  // videoElement.pause();
 
   // Update the source
   videoElement.querySelector("source").src = newSrc;

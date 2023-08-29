@@ -316,7 +316,8 @@ a {
     transition: 0.5s ease;
     height: 300px;
     width: 35%;
-    background: linear-gradient(135deg, rgb(0, 0, 61),rgb(100,0,100));
+    background: #222;
+
     display: block;
     text-align: center;
     z-index: 10;
@@ -334,7 +335,7 @@ a {
   .navbar .menu-list li:nth-child(2) {
     margin-top: 50px;
   }
-  .navbar .menu-list li{
+  .navbar .menu-list li {
     margin-top: 26.7px;
   }
   .navbar .menu-list li a {
@@ -461,6 +462,10 @@ a {
   .navbar {
     margin-bottom: 35px;
   }
+
+  #thirdp {
+    margin-top: 18px;
+  }
 }
 @media (max-width: 520px) {
   .navbar .menu-list {
@@ -475,6 +480,7 @@ a {
 @media (max-width: 474px) {
   .p {
     font-size: 15px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 450px) {
@@ -499,5 +505,10 @@ a {
 @media (max-width: 373px) {
   .part1 {
     height: 700px;
+  }
+}
+@media (max-width: 375px) {
+  .p {
+    font-size: 14px;
   }
 }

@@ -199,6 +199,7 @@ body {
 
 .list-container h1 {
   text-align: center;
+
   font-family: "Quicksand", sans-serif;
 }
 .offers-heading {
@@ -222,6 +223,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.offers-content .offerimg {
+  width: 60%;
 }
 .offers-content img {
   border: 3px solid black;
@@ -437,7 +441,8 @@ body {
     transition: 0.5s ease;
     height: 300px;
     width: 35%;
-    background: linear-gradient(135deg, rgb(0, 0, 61),rgb(100,0,100));
+    background: #222;
+
     display: block;
     text-align: center;
     z-index: 10;
@@ -454,7 +459,7 @@ body {
   .navbar .menu-list li:nth-child(2) {
     margin-top: 50px;
   }
-  .navbar .menu-list li{
+  .navbar .menu-list li {
     margin-top: 26.7px;
   }
   .navbar .menu-list li a {
@@ -539,6 +544,9 @@ body {
   .hupati-content p {
     font-size: 18px;
   }
+  #firstsingle {
+    width: 100vw;
+  }
 }
 @media (max-width: 767px) {
   .footer-col {
@@ -588,6 +596,9 @@ body {
   .footer-col {
     width: 100%;
   }
+  #thirdp {
+    margin-top: 18px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -601,7 +612,7 @@ body {
     width: 95px;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 590px) {
   .navbar .menu-list {
     width: 55%;
   }
@@ -671,5 +682,13 @@ body {
   }
   .footer {
     padding: 30px 0px 0px 0px;
+  }
+}
+@media (max-width: 375px) {
+  .p {
+    font-size: 14px;
+  }
+  .navbar .menu-list {
+    width: 64%;
   }
 }

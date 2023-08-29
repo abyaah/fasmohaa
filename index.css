@@ -124,6 +124,13 @@ body {
   margin-bottom: 20px;
   margin-top: 35px;
 }
+#feap {
+  margin-bottom: 20px;
+}
+#catalogue {
+  text-align: center;
+  font-size: 19px;
+}
 .topic-button {
   padding: 15px;
   background-color: white;
@@ -283,13 +290,21 @@ body {
   height: 2px;
   width: 16%;
 }
-
+.huduma-content p {
+  font-size: 20px;
+  text-align: center;
+}
+.huduma-content p a {
+  background-image: linear-gradient(to right, darkblue, purple);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 .box-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 }
 .box {
   border: 2px solid darkmagenta;
@@ -443,7 +458,7 @@ html {
     transition: 0.5s ease;
     height: 300px;
     width: 35%;
-    background: linear-gradient(135deg, rgb(0, 0, 61),rgb(100,0,100));
+    background: #222;
     display: block;
     text-align: center;
     z-index: 10;
@@ -461,7 +476,7 @@ html {
   .navbar .menu-list li:nth-child(2) {
     margin-top: 50px;
   }
-  .navbar .menu-list li{
+  .navbar .menu-list li {
     margin-top: 26.7px;
   }
   .navbar .menu-list li a {
@@ -548,14 +563,23 @@ html {
   .row {
     margin-bottom: 10px;
   }
-  .slide img {
-    width: 90%;
-    height: 280px;
-  }
 }
 @media (max-width: 663px) {
   #tunapendap {
     width: 90%;
+  }
+  #feap {
+    font-size: 18px;
+    width: 90%;
+  }
+  #catalogue {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .slide img {
+    width: 95%;
+    height: 240px;
   }
 }
 @media (max-width: 595px) {
@@ -589,9 +613,12 @@ html {
   .footer-col {
     width: 100%;
   }
+  #thirdp {
+    margin-top: 18px;
+  }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 590px) {
   .navbar .menu-list {
     width: 55%;
   }
@@ -638,13 +665,21 @@ html {
     left: 38%;
   }
 }
-@media (max-width: 378px) {
+@media (max-width: 500px) {
   .part1 {
-    height: 1000px;
+    height: 1090px;
   }
 }
 @media (max-width: 340px) {
   .huduma-content .headings_2 span {
     font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .p {
+    font-size: 14px;
+  }
+  .navbar .menu-list {
+    width: 64%;
   }
 }

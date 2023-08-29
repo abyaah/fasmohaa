@@ -111,9 +111,33 @@ next2.addEventListener("click", () => {
 });
 
 // button to open devices page
-const devices = document.getElementById("devices");
-devices.addEventListener("click", () => {
+const offers = document.getElementById("offers");
+offers.addEventListener("click", () => {
   // Change the URL to index.html within the same tab
-  window.location.href = "devices.html";
+  window.location.href = "offers.html";
 });
-// DEVICES
+const videoElement = document.getElementById("videoElement");
+
+// Function to change the video source
+function changeVideoSource(newSrc) {
+  // Pause the video if it's playing
+  // videoElement.pause();
+
+  // Update the source
+  videoElement.querySelector("source").src = newSrc;
+
+  // Load the new source
+  videoElement.load();
+
+  // Play the video again
+  videoElement.play();
+}
+
+// Add a resize event listener to check for the media query
+window.addEventListener("resize", function () {
+  if (window.innerWidth <= 560) {
+    changeVideoSource("images/Chabla4.mp4");
+  } else {
+    changeVideoSource("images/Chabla3.mp4");
+  }
+});
